@@ -1,0 +1,184 @@
+.btn{
+	display: inline-block;
+	height: auto;
+	line-height: 35px;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.063rem;
+	border-radius: 3px;
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+.support-button{
+	width: 144.61px;
+	height: 56px;
+	line-height: 46px;
+	color: $white;
+	font-size: 18px;
+	font-style: poppins, sans-serif;
+	background-color: $IT-support-button;
+	margin-right: 20px;
+	font-weight: 400;
+	&:hover{
+		background-color: $IT-support-button-hvr;
+	}
+	@media(max-width: 767px){
+		display: none; 
+	}
+	@media(min-width: 768px){
+		display: none;
+	}
+	@media(min-width: 992px){
+		display: inline;
+	}
+	.fas{
+		font-size: 20px;
+	}
+}
+
+.contact-button{
+	width: 152.42px;
+	height: 56px;
+	line-height: 46px;
+	color: $white;
+	font-size: 18px;
+	font-style: poppins, sans-serif;
+	background-color: $search-button;
+	margin-right: 20px;
+	font-weight: 400;
+	&:hover{
+		background-color: $search-button-hvr;
+	}
+	@media(max-width: 767px){
+		display: none; 
+	}
+	@media(min-width: 768px){
+		display: none;
+	}
+	@media(min-width: 992px){
+		display: inline;
+	}
+	.fas{
+		font-size: 20px;
+	}
+}	
+
+.btn-search{
+	position: absolute;
+	left: 174px;
+	width: 63px;
+	height: 100%;
+	padding: 15px;
+	background-color: $search-button;
+	color: $white;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	&:hover{
+		cursor: pointer;
+		background-color: $search-button-hvr;
+	}
+	@media(min-width: 992px){
+		border-radius: 3px;
+		left: 0;
+	}
+	@media(min-width: 1260px){
+		left: 240px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+}
+
+.btn-hero{
+	
+	background-color: $design;
+	color: $white;
+	padding: 5px 20px;
+	.fas{
+		margin: 0 -4px 0 12px;
+		padding-right: 1px;
+	}
+	&:hover{
+	background-color: $design-hover;
+	}
+}
+
+.btn-brand{
+	background-color: $white;
+	color: $darker-grey;
+	padding: 5px 15px;
+	.fas{
+		margin: 0 -4px 0 12px;
+		padding: 0 1px;
+	}
+	&:hover{
+		background-color: $culture-btn-hover;
+	}
+}
+
+.btn-read-more{
+	width: 129.73px;
+	height: 47px;
+	color: $white;
+	font-size: 17px;
+	padding: 5px 15px;
+	font-weight: 400;
+}
+
+
+.btn-bespoke{
+	background-color: $bespoke;
+	&:hover{
+		background-color: $bespoke-hover;
+		}
+}
+
+.btn-design{
+	background-color: $design;
+	&:hover{
+		background-color: $design-hover;
+	}
+}
+
+.btn-telecoms{
+	background-color: $telecoms;
+	&:hover{
+		background-color: $telecoms-hover;
+	}
+}
+
+.btn-support{
+	background-color: $support;
+	&:hover{
+		background-color: $support-hover;
+	}
+}
+
+.btn-marketing{
+	background-color: $marketing;
+	&:hover{
+		background-color: $marketing-hover;
+	}
+}
+
+.btn-security{
+	background-color: $security;
+	&:hover{
+		background-color: $security-hover;
+	}
+}
+
+.btn-subscribe{
+	background-color: $menu-sub-button;
+	color: $white;
+	padding: 5px 15px;
+	border: none;
+	font-family: $fontstyle;
+	&:hover{
+		background-color: $menu-sub-button-hvr;
+		cursor: pointer;
+	}
+}

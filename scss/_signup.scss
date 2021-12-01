@@ -1,0 +1,151 @@
+#signup {
+	background-color: $light-grey;
+	height: auto;
+	h2 {
+		text-transform: none;
+		margin: 0px 0px 15px;
+		line-height: 1.1;
+		font-size: 2rem;
+		color: $darker-grey;
+	}
+}
+
+label {
+	font-weight: 600;
+	color: $darker-grey;
+	line-height: 32px;
+	width: 100%;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+}
+
+.required {
+	color: #d64541;
+}
+
+.signup-form {
+	@media (max-width: 767px) {
+		padding: 50px 30px;
+	}
+	@media (min-width: 768px) {
+		max-width: 720px;
+		padding: 50px 30px;
+		margin: auto;
+	}
+	@media (min-width: 992px) {
+		max-width: 940px;
+		padding: 50px 30px;
+	}
+	@media (min-width: 1260px) {
+		max-width: 1170px;
+	}
+}
+
+.signup-fieldset {
+	margin: 0 0 20px;
+}
+
+signup-label {
+	margin-bottom: 5px;
+}
+
+.signup-fields {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	.name-field,
+	.email-field {
+		width: 100%;
+		@media (min-width: 992px) {
+			width: 425px;
+		}
+		@media (min-width: 1260px) {
+			width: 540px;
+		}
+	}
+}
+
+#name,
+#email {
+	width: 100%;
+	height: 47px;
+	padding: 5px 15px;
+	border: 1px solid $lighter-grey;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	font-size: 14px;
+	color: #555;
+	box-shadow: inset 0 1px 1px rgba(66, 61, 61, 0.08);
+	&:focus {
+		outline: none;
+		border: 1px solid rgb(91, 192, 222);
+		box-shadow: 0px 0px 8px rgba(91, 192, 222, 0.6);
+	}
+}
+
+.marketing-box {
+	margin-top: 5px;
+	margin-bottom: 11px;
+	display: flex;
+}
+
+#marketing-optin {
+	display: none;
+}
+
+.marketing-label {
+	padding-left: 52px;
+	position: relative;
+	cursor: pointer;
+	a {
+		display: inline-block;
+	}
+}
+
+.marketing-label::before {
+	content: "";
+	width: 26px;
+	height: 26px;
+	border: 3px solid $darker-grey;
+	border-radius: 3px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.marketing-label span {
+	display: inline-block;
+	margin: 0px;
+}
+
+.marketing-label #marketing-optin:checked {
+	+ span::before {
+		content: "";
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		background-color: $darker-grey;
+		left: 0;
+		top: 0;
+		border-radius: 3px;
+	}
+	+ span::after {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 13px;
+		height: 5px;
+		border-left: 2.5px solid $white;
+		border-bottom: 2.5px solid $white;
+		transform: rotate(-45deg);
+		left: 8px;
+		top: 11px;
+		color: $white;
+	}
+}

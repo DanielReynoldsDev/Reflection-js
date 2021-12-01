@@ -1,0 +1,51 @@
+//Font Variable
+$fontstyle: "Poppins", "Helvetica", "Arial", sans-serif;
+
+//Page colours
+
+$white: #fff;
+$lighter-grey: #ccc;
+$light-grey: #ddd;
+$grey: #666;
+$dark-grey: #454555;
+$darker-grey: #333645;
+$darkest-grey: #22242e;
+
+//Bottom Navigation Colours
+
+$design: #926fb1;
+$design-hover: #7e57a0;
+$support: #4183d7;
+$support-hover: #2a6ec6;
+$telecoms: #d64541;
+$telecoms-hover: #bc2c28;
+$bespoke: #67809f;
+$bespoke-hover: #566c88;
+$marketing: #2ecc71;
+$marketing-hover: #25a25a;
+$security: #f62459;
+$security-hover: #de093f;
+
+//Button Colours
+
+$search-button: #999aa2;
+$search-button-hvr: #84858f;
+$menu-sub-button: #333645;
+$menu-sub-button-hvr: #22242e;
+$web-dev-button: #926fb1;
+$web-dev-button-hvr: #7e57a0;
+$IT-support-button: #4183d7;
+$IT-support-button-hvr: #2a6ec6;
+$culture-btn-hover: #ebebeb;
+
+//Card Colours
+
+$card-colors: (
+	"bespoke": #67809f,
+	"support": #4183d7,
+	"marketing": #2ecc71,
+	"telecoms": #d64541,
+	"design": #926fb1,
+	"security": #f62459,
+	"developer": #926fb1,
+);

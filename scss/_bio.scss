@@ -1,0 +1,38 @@
+.bio {
+	background-color: $darker-grey;
+	color: $white;
+	padding: 50px 15px;
+	@media (min-width: 992px) {
+		background-image: url("https://www.netmatters.co.uk/assets/images/branded.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+	h2 {
+		margin: -6px 0 28px;
+	}
+	p {
+		line-height: 1.875rem;
+		margin-bottom: 25px;
+	}
+	@media (min-width: 768px) {
+		.bio-content {
+			max-width: 720px;
+			margin: auto;
+		}
+	}
+	@media (min-width: 992px) {
+		.bio-content {
+			max-width: 940px;
+		}
+	}
+	@media (min-width: 1260px) {
+		background-size: auto 100%;
+		.bio-content {
+			max-width: 1170px;
+			p {
+				max-width: 570px;
+			}
+		}
+	}
+}
