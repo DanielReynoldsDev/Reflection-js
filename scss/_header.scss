@@ -6,19 +6,20 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	background-color: white;
-	position: fixed;
-	transition: 0.5s;
-	width: 100%;
-	z-index: 9999;
-	@media (max-width: 767px) {
-		padding: 20px 15px;
-	}
-	@media (min-width: 768px) {
-		padding: 20px 0;
-	}
-	@media (min-width: 992px) {
-		padding: 20px 0 0;
-	}
+	position: fixed !important; 
+	//transition: 0.5s !important;
+	width: 100% !important;
+	z-index: 9999 !important;
+	padding-top: 20px;
+	// @media (max-width: 767px) {
+	// 	margin: 20px 15px !important;
+	// }
+	// @media (min-width: 768px) {
+	// 	margin: 20px 0 !important;
+	// }
+	// @media (min-width: 992px) {
+	// 	margin: 20px 0 0 !important;
+	// }
 }
 
 .top-nav {
@@ -491,7 +492,7 @@ button.btn-menu {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background: grey;
+	background: #333645;
 	font-size: 0.75rem;
 	padding: 0.25rem 0.9rem;
 	margin-left: 15px;
@@ -502,7 +503,7 @@ button.btn-menu {
 		margin-left: 0.5rem;
 	}
 	&:hover {
-		background: grey;
+		background: #22242e;
 	}
 	& .menu-text {
 		margin-top: 3px;

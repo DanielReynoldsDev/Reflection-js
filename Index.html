@@ -21,15 +21,16 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pushy/1.4.0/css/pushy.css" integrity="sha512-boKVFKEdtfpuV0BPYJgJ1eyGHuwVPxmqPEBMyHdKaaB2LiAPGNFDqg9DkkUqiXQP0QQc3znkPGZ+ReCAKBFlig==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
       <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+      <link rel="stylesheet" type="text/css" href="js/slick/slick.scss"/>
       <!-- /CSS -->
       <!-- Title -->
       <title>Netmatters | Full Service Digital Agency | Norwich, Norfolk | Netmatters</title>
       <!-- /Title -->
    </head>
-   <body class="" id="homepage">
+   <body class="static" id="homepage">
       <div class="website">
          <!-- Header -->
-         <header id="headersticky">
+         <header id="headersticky" class="website">
             <div class="top-nav">
                <!-- Logo -->
                <a href="#" class="logo">
@@ -78,10 +79,10 @@
                      </a>
                      </div> -->
                   <button id="menu-btn" class="btn-menu headerBtn menu-btn main-button menu-btn-selector hamburger hamburger--spin" type="submit">
-                  <span class="hamburger-box">
-                  <span class="hamburger-inner"></span>
+                  <span class="hamburger-box headerBtn">
+                  <span class="hamburger-inner headerBtn"></span>
                   </span>
-                  <span class="menu-text">menu</span>
+                  <span class="menu-text headerBtn">menu</span>
                   </button>
                   <!-- /Menu with Burger Icon -->
                </nav>
@@ -204,7 +205,9 @@
          </header>
          <!-- /Header -->
          <!-- Carousel -->
-         <div class="slider">
+             <div class="carousel-fixer">
+
+         <div class="slider" >
             <div class=" slide-web banner">
                <img src="img/slider/web-design.webp" alt="">
                <div class="banner-content">
@@ -278,6 +281,9 @@
                </div>
             </div>
          </div>
+         </div>
+
+         <!-- </div> -->
          <!-- /Carousel -->
          <!-- Cards -->
          <div id="cards">
@@ -434,7 +440,7 @@
                         </a>
                         <div class="story-ftr">
                            <div class="auth-img">
-                              <img src="img/netmatters-ltd.PNG" alt="profile img">
+                              <img src="img/netmatters-ltd.png" alt="profile img">
                            </div>
                            <div class="author">
                               <ul>
@@ -466,7 +472,7 @@
                         </a>
                         <div class="story-ftr">
                            <div class="auth-img">
-                              <img src="img/netmatters-ltd.PNG" alt="profile img">
+                              <img src="img/netmatters-ltd.png" alt="profile img">
                            </div>
                            <div class="author">
                               <ul>
@@ -527,7 +533,7 @@
                   <div class="logo-start">
                      <a href="#">
                      <img src="img/northern.jpg" alt="northern">
-                     <img src="img/northern2.PNG" alt="northern">
+                     <img src="img/northern2.png" alt="northern">
                      </a>
                   </div>
                   <div class="hover-box">
@@ -896,11 +902,12 @@
          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
          crossorigin="anonymous"></script>
       <script src="/js/sticky.js"></script>
-      <script type="text/javascript" src="js/slick/slick.min.js" defer></script>
+      <script type="text/javascript" src="js/slick/slick.js" defer></script>
       <script src="js/slider.js" defer></script>
       <script src="/js/cookie.js"></script>
       <script src="/js/pushy.js"></script>
       <script src="/js/side.js"></script>
+
       <!-- /Scripts -->
    </body>
 </html>

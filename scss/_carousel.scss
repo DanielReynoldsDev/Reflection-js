@@ -1,15 +1,15 @@
 .banner {
 	color: $white;
 	min-height: 400px;
-	height: calc(100vh - 10.5rem);
-	margin: 10.5rem 0 0 0;
+	//height: calc(100vh - 10.5rem);
+	// margin: 10.5rem 0 0 0;
 	padding-left: 20%;
-	@media (max-width: 575px) {
-		margin: 6.875rem 0 0 0;
-	}
-	@media (min-width: 768px) {
-		margin: 13rem 0 0 0;
-	}
+	// @media (max-width: 575px) {
+	// 	margin: 6.875rem 0 0 0;
+	// }
+	// @media (min-width: 768px) {
+	// 	margin: 13rem 0 0 0;
+	// }
 	padding: 0;
 	width: 100%;
 	object-fit: cover;
@@ -93,4 +93,9 @@
 	.container {
 		width: 1200px;
 	}
+}
+
+.carousel-fixer {
+
+	padding-top: 208px;
 }

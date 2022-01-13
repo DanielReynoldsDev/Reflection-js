@@ -5,6 +5,8 @@
     background: #fff url('./ajax-loader.gif') center center no-repeat;
 }
 
+
+
 /* Icons */
 @font-face
 {
@@ -154,8 +156,8 @@
 
     display: block;
 
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 19px;
     padding: 6px;
 
     cursor: pointer;
@@ -185,8 +187,8 @@
     top: 0;
     left: 0;
 
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 19px;
 
     content: '•';
     text-align: center;
@@ -205,8 +207,8 @@
     position: absolute;
     top: -1px;
     left: 0;
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 19px;
     border-radius: 50%;
     border: 2px solid #fff;
 
