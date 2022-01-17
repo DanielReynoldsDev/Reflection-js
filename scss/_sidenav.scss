@@ -188,6 +188,7 @@
         position: absolute;
         width: 100%;
         height: 100vh;
+        top: 0;
         background: black;
         opacity: 0;
         z-index: 20;
@@ -207,6 +208,7 @@
         pointer-events: all;
         cursor: pointer;
         opacity: 0.4;
+        
     }
 }
 
@@ -214,4 +216,28 @@
     margin: 0px;
     overflow-x: hidden;
     position: relative;
+}
+
+.fa-code{
+    color: $design;
+}
+
+.fa-desktop{
+    color: $support;
+}
+
+.fa-phone-alt{
+    color: $telecoms;
+}
+
+.fa-th{
+    color: $bespoke;
+}
+
+.fa-chart-bar{
+    color: $marketing;
+}
+
+.fa-shield-alt{
+    color: $security;
 }
